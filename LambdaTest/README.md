@@ -1,8 +1,8 @@
 # LambdaTestSeleniumPython101
-This is a repository containing the Final assessment for the LambdaTest Selenium Python 101 Certification.
+ LambdaTest Selenium Python 101 Certification.
 
 ## Testting Framework
-The Tests are written using the Pytest Framework.
+Pytest Framework.
 
 ## Libraries to be installed for the execution
 1. pytest
@@ -10,9 +10,7 @@ The Tests are written using the Pytest Framework.
 3. pytest-xdist
 
 ## Note:
-All options required for running the tests have been added in the pytest.ini file
-Hence we see no parameters passed during execution of the tests as seen in the gitpod.yml file
-
-* Number of workers for parallel execution are currently set to 2
+configured pytest.ini file
+Number of workers for parallel execution are currently set to 2
 
 
