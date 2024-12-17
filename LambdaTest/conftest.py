@@ -24,14 +24,14 @@ def initialize_driver(request):
 
 
 # 1st Step: Declare Variables For Setting Up LambdaTest
-user_name = "pranav_naik"
-access_token = "TIip2A6dnYX0RVdW3jMAYtNNFr7O9ZWXljPMQbtrS0QbqqefWW"
+user_name = "pushpa_sathish"
+access_token = "cgubzyOubHatV66TTQyFMyWI2HJZ95psh5HzKiUXYkyFs6Xhmc"
 remote_url = "http://" + user_name + ":" + access_token + "@hub.lambdatest.com/wd/hub"
 
 # 2nd Step: Define The Desired Capabilities (3 Caps)
 chrome_caps = {
     "build": "1.0",
-    "name": "LambdaTest Grid On Chrome and Windows 10",
+    "name": "LambdaTest Chrome and Windows 10",
     "platform": "Windows 10",
     "browserName": "Chrome",
     "version": "88.0",
@@ -43,7 +43,7 @@ chrome_caps = {
 
 edge_caps = {
     "build": "2.0",
-    "name": "LambdaTest Grid On Edge and macOS Sierra",
+    "name": "LambdaTest Edge and macOS Sierra",
     "platform": "macOS Sierra",
     "browserName": "Edge",
     "version": "87.0",
@@ -55,7 +55,7 @@ edge_caps = {
 
 firefox_caps = {
     "build": "3.0",
-    "name": "LambdaTest Grid On Firefox and Windows 7",
+    "name": "LambdaTest Firefox and Windows 7",
     "platform": "Windows 7",
     "browserName": "Firefox",
     "version": "82.0",
@@ -67,7 +67,7 @@ firefox_caps = {
 
 ie_caps = {
     "build": "4.0",
-    "name": "LambdaTest Grid On Internet Explorer and Windows 10",
+    "name": "LambdaTest Internet Explorer and Windows 10",
     "platform": "Windows 10",
     "browserName": "Internet Explorer",
     "version": "11.0",
