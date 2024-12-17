@@ -10,24 +10,19 @@ class InputForms(BasePage):
         super().__init__(driver)
 
     # values for the form inputs
-    name = "Pranav Naik"
-    email = "testadmin@lambdatest.com"
-    password = "@1234$lamdatest"
+    name = "Pushpa Sathish"
+    email = "pushpasathish@lambdatest.com"
+    password = "pushpalamdatest"
     company = "Lambdatest"
     website = "https://www.lambdatest.com/"
     country = "United States"
     city = "New York City"
-    address_line_1 = "7953 Vernon Ave"
+    address_line_1 = "Dark avanue"
     address_line_2 = "Brooklyn"
     state = "NY"
-    zip_code = "11208"
+    zip_code = "14208"
 
-    """
-    I noticed there has been an update in the UI due to which the error message for empty fields seems to be 
-    detached from the DOM.
-    Due to this, the error message element cannot be located using conventional locator strategies.
-    Hence, I have commented out the assertion part for the warning text below:
-    """
+    
 
     def validate_warning_message_for_input_fields(self):
         base_page = BasePage(self)
