@@ -2,9 +2,7 @@ from selenium.webdriver.common.by import By
 
 
 class TestData:
-    """
-    This class stores all the test data and locators required for the test scenario automation
-    """
+     
 
     base_url = "https://www.lambdatest.com/selenium-playground"
 
